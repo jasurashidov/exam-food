@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #4499FE;
+}
+
+.container-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.card-container {
+    padding: 2em;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.btn-container {
+    position: relative;
+}
+
+.btn-success {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imgContainer img {
+    border-radius: 15px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.card-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
